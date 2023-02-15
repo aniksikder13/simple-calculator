@@ -23,7 +23,7 @@ getByIdElement('equal').addEventListener('click', function(){
         const result= eval(input.value)
         Number.isInteger(result) ? input.value= result : input.value= result.toFixed(2)
     } catch (error) {
-        alert('error.message')
+        alert(error.message)
     }
 })
 
